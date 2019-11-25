@@ -1,6 +1,6 @@
 # ServerlessDaysStockholm
 
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/aeda4c96-9e3b-405d-9106-91163477b416/deploy-status)](https://app.netlify.com/sites/brave-ritchie-630574/deploys) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4df70081-c1e8-4269-bbf8-08252593a5f2/deploy-status)](https://app.netlify.com/sites/infallible-kepler-08ba9c/deploys)
 
 ## Site Generator
 
