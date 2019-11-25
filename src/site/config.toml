@@ -14,10 +14,10 @@ title = "ServerlessDays Stockholm"
     backgroundImage = "/images/dan-freeman-hIKVSVKH7No-unsplash.jpg"
     prospectus = "/Prospectus_ServerlessDays_Stockholm_2019.pdf"
     ticketDate = "7 June 2019"
-    ticketSaleUrl = "https://serverlessdays-stockholm-2019.eventbrite.com"
+    ticketSaleUrl = "https://somewhere.eventbrite.com"
     cfpDate = "26 May 2019"
     cfpEndDate = "1 September 2019"
-    cfpUrl = "https://www.papercall.io/serverlessdaysstockholm2019"
+    cfpUrl = "https://www.papercall.io/serverlessdaysauckland2020"
 
 [[params.dates]]
     date = "26 May 2019"
@@ -40,8 +40,8 @@ title = "ServerlessDays Stockholm"
     done = true    
 
 [[params.dates]]
-    date = "24 october 2019"
-    text = "ServerlessDays Stockholm @ Openlab"
+    date = "20 April 2020"
+    text = "ServerlessDays Auckland @ Auckland University"
     done = true
 
 [[params.dates]]
