@@ -73,7 +73,7 @@
   </div>
 
 
-  <a name="agenda"></a>
+  <!-- <a name="agenda"></a>
   <div class="section agenda" style="border-top: 0">
     <div class="header-button"><h1>Agenda</h1></div>
 
@@ -102,13 +102,13 @@
         {{end}}
         {{end}}  
     </div>
-  </div>
+  </div> -->
 
   <a name="speakers"></a>
   <div class="section speakers" style="border-top: 0;">
     <h1>Speakers</h1>
     <div class="list">
-        {{ range where .Site.RegularPages "Section" "speakers" | shuffle }} 
+        <!-- {{ range where .Site.RegularPages "Section" "speakers" | shuffle }} 
         <div>
           <div class="bio">
               <a href="{{.URL}}">
@@ -120,11 +120,11 @@
             {{ end }}
           </div>
         </div>
-        {{end}}
+        {{end}} -->
     </div>
   </div>
 
-  <a name="workshops"></a>
+  <!-- <a name="workshops"></a>
   <div class="section workshops" style="border-top: 0">
     <h1>Workshops</h1>
     <div class="list">
@@ -140,9 +140,9 @@
       </div>
       {{end}}
     </div>    
-  </div>
+  </div> -->
   
-  <a name="tickets"></a>
+  <!-- <a name="tickets"></a>
   <div class="section" style="border-top: 0;">
     <div class="left">
       <div class="title"><h1>Tickets</h1></div>
@@ -152,13 +152,13 @@
       <p>Tickets are available at <a href="{{.Site.Params.ticketSaleUrl}}" target="_blank">Eventbrite</a> for only 450 sek (~45€).</p>
       <p>We seek to create a diverse and inclusive community for serverless developers. We want to include and encourage people of all races, ethnicities, genders, religions, sexual orientations, abilities, technical experience and ages.</p>
     </div>
-  </div>
+  </div> -->
 
   <a name="sponsors"></a>
   <div class="section sponsors" style="border-top: 0;">
     <h1>Sponsors</h1>
     <div class="list bronze">
-      {{ range where .Site.RegularPages "Section" "sponsors"  | shuffle}} 
+      <!-- {{ range where .Site.RegularPages "Section" "sponsors"  | shuffle}} 
       <div class="list" style="order:{{.Params.order}}">
         <div style="padding: 1.5em;">
           <a href="{{.URL}}">
@@ -166,7 +166,7 @@
             title="{{.Params.name}}" alt="{{.Params.name}}"></a>
           </div>
         </div>
-      {{ end }}
+      {{ end }} -->
     </div>
 
     <p>&nbsp;</p>
@@ -176,7 +176,8 @@
   <a name="coc"></a>
   <div class="section coc" style="border-top: 0;">
     <h1>Code of Conduct</h1>
-    <img width="80" src="/images/moth_mascot.svg"><div class="expanded">
+    <img width="80" src="/images/tealdeer.jpg" title="tl;dr" alt="tl;dr">
+    <div class="expanded">
       <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
       <p><strong>Jeff says be excellent with each other</strong></p>
       <h3>The Quick Version</h3>
