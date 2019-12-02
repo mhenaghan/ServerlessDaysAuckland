@@ -1,4 +1,4 @@
-# ServerlessDaysStockholm
+# ServerlessDaysAuckland
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4df70081-c1e8-4269-bbf8-08252593a5f2/deploy-status)](https://app.netlify.com/sites/infallible-kepler-08ba9c/deploys)
 
