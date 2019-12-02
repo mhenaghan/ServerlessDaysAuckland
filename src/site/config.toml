@@ -21,17 +21,17 @@ title = "ServerlessDays Auckland"
     cfpUrl = "https://www.papercall.io/serverlessdaysauckland2020"
 
 [[params.dates]]
-    date = "03 December 2019"
+    date = "03 December 2019"   
     text = "CFP Opens"
     done = false
 
 [[params.dates]]
-    date = "1 January 2020"
+    date = "01 January 2020"
     text = "Tickets go on sale"
     done = false
 
 [[params.dates]]
-    date = "2 March 2020"
+    date = "02 March 2020"
     text = "CFP closes"
     done = false
 
