@@ -14,41 +14,41 @@ title = "ServerlessDays Auckland"
     email = "auckland@serverlessdays.io"
     backgroundImage = "/images/dan-freeman-hIKVSVKH7No-unsplash.jpg"
     prospectus = "/ServerlessDays_Auckland2020_Prospectus_v1.3.pdf"
-    ticketDate = "7 June 2019"
+    ticketDate = "1 January 2020"
     ticketSaleUrl = "https://somewhere.eventbrite.com"
-    cfpDate = "26 May 2019"
-    cfpEndDate = "1 September 2019"
+    cfpDate = "3 Dec 2019"
+    cfpEndDate = "2 March 2020"
     cfpUrl = "https://www.papercall.io/serverlessdaysauckland2020"
 
 [[params.dates]]
-    date = "26 May 2019"
+    date = "03 December 2019"   
     text = "CFP Opens"
-    done = true
+    done = false
 
 [[params.dates]]
-    date = "7 June 2019"
+    date = "01 January 2020"
     text = "Tickets go on sale"
-    done = true
+    done = false
 
 [[params.dates]]
-    date = "1 September 2019"
+    date = "02 March 2020"
     text = "CFP closes"
-    done = true
+    done = false
 
 [[params.dates]]
-    date = "14 September 2019"
-    text = "Schedule announced"
-    done = true    
+    date = "15 March 2020"
+    text = "Final speaker announcement"
+    done = false    
 
 [[params.dates]]
     date = "20 April 2020"
     text = "ServerlessDays Auckland @ Auckland University"
-    done = true
+    done = false
 
 [[params.dates]]
     date = "25 october 2019"
     text = "Workshops"
-    done = true
+    done = false
 
 [params.venue]
     name = "The University of Auckland, Sir Owen G Glenn Building"
@@ -121,6 +121,6 @@ title = "ServerlessDays Auckland"
     type = "coffee"
     title = "Closing Remarks"
 [[params.agenda]]
-    time = "17:15 - 19:30"
+    time = "17:30 - 19:30"
     type = "coffee"
-    title = "Fireside chat together with Futurice"
+    title = "Networking, Dringks and nibbles"
