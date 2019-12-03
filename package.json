@@ -1,20 +1,20 @@
 {
-  "name": "serverlessdays-stockholm",
+  "name": "serverlessdays-auckland",
   "version": "1.0.0",
-  "description": "ServerlessDays Stockholm Website",
+  "description": "ServerlessDays Auckland Website",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:mHallne/ServerlessDaysStockholm.git"
+    "url": "git+https://github.com:mHallne/ServerlessDaysAuckland.git"
   },
   "keywords": [
     "serverless",
     "serverlessdays",
-    "Stockholm"
+    "Auckland"
   ],
   "author": "Mikael Hallne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mHallne/ServerlessDaysStockholm/issues"
+    "url": "https://github.com/mHallne/ServerlessDaysAuckland/issues"
   },
-  "homepage": "https://github.com/mHallne/ServerlessDaysStockholm#readme"
+  "homepage": "https://github.com/mHallne/ServerlessDaysAuckland#readme"
 }

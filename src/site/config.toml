@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "ServerlessDays Auckland"
 
 [params]
-    logo = "/images/Logo1.png"
+    logo = "/images/ServerlessDaysAuckland2020.png"
     tldr= "/images/tealdeer.jpg"
     description = "A community based conference focusing on Serverless based platforms and technologies. Auckland, April 20, 2020"
     mascot = "/images/Anteater_mascot.png"
@@ -23,7 +23,7 @@ title = "ServerlessDays Auckland"
 [[params.dates]]
     date = "03 December 2019"   
     text = "CFP Opens"
-    done = false
+    done = true
 
 [[params.dates]]
     date = "01 January 2020"
@@ -42,7 +42,7 @@ title = "ServerlessDays Auckland"
 
 [[params.dates]]
     date = "20 April 2020"
-    text = "ServerlessDays Auckland @ Auckland University"
+    text = "ServerlessDays Auckland"
     done = false
 
 
