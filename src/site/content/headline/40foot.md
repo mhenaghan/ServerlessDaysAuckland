@@ -2,7 +2,7 @@
 type: "page"
 layout: "sponsor"
 name: "40 Foot"
-link: "www.40foot.co.nz"
+link: "http://www.40foot.co.nz"
 logo: "/images/40foot.jpg"
 width: 250
 order: 2
