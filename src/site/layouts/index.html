@@ -121,8 +121,8 @@
       <p>Interested in taking part as a speaker? our <a class="no-mobile"
           href="https://www.papercall.io/serverlessdaysakl2020">Call for Papers</a> is now open!</p>
     </div>
-    <div class="list">
-        <!-- {{ range where .Site.RegularPages "Section" "speakers" | shuffle }} 
+    <!--<div class="list">
+         {{ range where .Site.RegularPages "Section" "speakers" | shuffle }} 
         <div>
           <div class="bio">
               <a href="{{.URL}}">
@@ -175,8 +175,9 @@
   <a name="sponsors"></a>
   <div class="section sponsors" style="border-top: 0;">
     <h1>Sponsors</h1>
+    <h2>Headline</h2>
     <div class="list bronze">
-      <!-- {{ range where .Site.RegularPages "Section" "sponsors"  | shuffle}} 
+      {{ range where .Site.RegularPages "Section" "headline"  | shuffle}} 
       <div class="list" style="order:{{.Params.order}}">
         <div style="padding: 1.5em;">
           <a href="{{.URL}}">
@@ -184,9 +185,32 @@
             title="{{.Params.name}}" alt="{{.Params.name}}"></a>
           </div>
         </div>
-      {{ end }} -->
+      {{ end }} -
     </div>
-
+    <h2>Supporter</h2>
+    <div class="list bronze">
+      {{ range where .Site.RegularPages "Section" "supporter"  | shuffle}} 
+      <div class="list" style="order:{{.Params.order}}">
+        <div style="padding: 1.5em;">
+          <a href="{{.URL}}">
+            <img width="{{.Params.width}}px" class="grow" src="{{.Params.logo}}"
+            title="{{.Params.name}}" alt="{{.Params.name}}"></a>
+          </div>
+        </div>
+      {{ end }} 
+    </div>
+    <h2>Community</h2>
+    <div class="list bronze">
+      {{ range where .Site.RegularPages "Section" "community"  | shuffle}} 
+      <div class="list" style="order:{{.Params.order}}">
+        <div style="padding: 1.5em;">
+          <a href="{{.URL}}">
+            <img width="{{.Params.width}}px" class="grow" src="{{.Params.logo}}"
+            title="{{.Params.name}}" alt="{{.Params.name}}"></a>
+          </div>
+        </div>
+      {{ end }} 
+    </div>
     <div class="text">
     <p>For more information on becoming a sponsor, please download our <a href="{{.Site.Params.prospectus}}">prospectus</a> or send an email to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a>.</p>
     </div>
