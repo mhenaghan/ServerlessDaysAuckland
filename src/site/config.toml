@@ -28,7 +28,7 @@ title = "ServerlessDays Auckland"
 [[params.dates]]
     date = "01 January 2020"
     text = "Tickets go on sale"
-    done = false
+    done = true
 
 [[params.dates]]
     date = "02 March 2020"
@@ -44,6 +44,31 @@ title = "ServerlessDays Auckland"
     date = "20 April 2020"
     text = "ServerlessDays Auckland"
     done = false
+
+[[params.tickets]]
+    ticket = "Early Bird"   
+    text = "Act Fast, Limited Availability"
+    price = "NZ$39"
+    done = false
+
+[[params.tickets]]
+    ticket = "General Admission"
+    text = "No Frills entry to the conference"
+    price = "NZ$49"
+    done = false
+
+[[params.tickets]]
+    ticket = "General Admission + Donate a ticket"
+    text = "Feeling the community spirit? Add a donation to your ticket to sponsor somebody else who otherwise might not be able to participate in the event."
+    price = "Minimum NZ$49 + your generosity"
+    done = false
+
+[[params.tickets]]
+    ticket = "T-Shirt"
+    text = "Can't do without a shirt? To keep ticket prices as low as possible and accessible to the community the general admission tickets comes without bells and whistles. So add the shirt to your ticket and collect on registration"
+    price = "NZ$20"
+    done = false
+
 
 
 [params.venue]

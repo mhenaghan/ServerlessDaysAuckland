@@ -169,6 +169,22 @@
       <p>We aim to keep the ServerlessDays event accessible. A big part of that is making them financially accessible and offer affordable tickets.</p>
       <p>In addition to affordable tickets, we run a ticket sponsorship program that allows you to sponsor a ticket for somebody else who otherwise might not be able to participate in the event.</p>
       <p>To apply for a sponsored ticket, apply with an email to <a class="no-underline" href="mailto:{{.Site.Params.email}}" title="Email us at {{.Site.Params.email}} ">{{.Site.Params.email}}</a>.</p>
+      <p>The organizers decided to keep the ticket prices as low as possible but do not provide any catering, t-shirts or other swag. So the tickets are no frills admission to the conference. </p>
+      <p> T-Shirts can be ordered additionally</p>
+      <div class="heroDate">
+        <h1>Tickets</h1>
+        <ul>
+          {{ range .Site.Params.tickets }} 
+          {{ if eq .done true }}
+          <li class="done"><div class="checkmark">✔️</div><div class="text">{{.text}}<br><strong>{{.text}}</strong></div></li>
+          {{ else }}
+          <li><div class="checkmark">️</div><div class="text"><strong>{{.ticket}}</strong><br>{{.text}}<br><i>{{.price}}</i></div></li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <p><a class="button"
+          href="https://ti.to/serverlessdays-auckland/2020">Buy your ticket</a></p>
+      </div>
     </div>
   </div>  
 
