@@ -3,7 +3,7 @@ type: "page"
 layout: "sponsor"
 name: "40 Foot"
 link: "http://www.40foot.co.nz"
-logo: "/images/40foot.jpg"
+logo: "https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1578008506/2020/40foot_logo_white_background.jpg"
 width: 250
 order: 2
 description: "We are specialists in digital and technology recruitment operating in Auckland and Wellington.  Our aim is to go deeper and unearth the best talent, both here and offshore, to enable our clients to achieve business goals"
