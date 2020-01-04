@@ -33,7 +33,7 @@
   <div class="section" style="border-top: 0;">
     <div class="left">
       <div class="title"><h1>About</h1></div>
-      <div class="image"><img width="150" height="150" style="padding: 30px;" src="{{.Site.Params.mascot}}"></div>
+      <div class="image"><img width="150" height="150" style="padding: 30px;" src="{{.Site.Params.mascot}}" alt="Serverless Days Mascot"></div>
     </div>
     <div class="text">
       <h2>Kia Ora ServerlessDays Auckland!</h2>
@@ -160,17 +160,16 @@
   <div class="section" style="border-top: 0;">
     <div class="left">
       <div class="title"><h1>Tickets</h1></div>
-      <div class="image"><img width="150" height="150" style="padding: 30px;" src="/images/owl_mascot.svg"></div>
+      <div class="image"><img width="150" height="150" style="padding: 30px;" src="https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1577987547/2020/owl_mascot.svg"></div>
     </div>
     <div class="text">
-      <p><!--Tickets will be available at <a href="{{.Site.Params.ticketSaleUrl}}" target="_blank">ti.to</a> for only NZD 99. -->
-        Ticket sales will start on the 1st of January 2020</p>
+      <p>Tickets are available <a href="{{.Site.Params.ticketSaleUrl}}" target="_blank">here!</a>
+        </p>
       <p>We seek to create a diverse and inclusive community for serverless developers. We want to include and encourage people of all races, ethnicities, genders, religions, sexual orientations, abilities, technical experience and ages.</p>
       <p>We aim to keep the ServerlessDays event accessible. A big part of that is making them financially accessible and offer affordable tickets.</p>
       <p>In addition to affordable tickets, we run a ticket sponsorship program that allows you to sponsor a ticket for somebody else who otherwise might not be able to participate in the event.</p>
       <p>To apply for a sponsored ticket, apply with an email to <a class="no-underline" href="mailto:{{.Site.Params.email}}" title="Email us at {{.Site.Params.email}} ">{{.Site.Params.email}}</a>.</p>
-      <p>The organizers decided to keep the ticket prices as low as possible but do not provide any catering, t-shirts or other swag. So the tickets are no frills admission to the conference. </p>
-      <p> T-Shirts can be ordered additionally</p>
+      <p>The organizers decided to keep the ticket prices as low as possible therefore do not provide any catering, t-shirts or other swag. So the tickets are no frills admission to the conference. T-Shirts can be ordered additionally.</p>
       <div class="heroDate">
         <h1>Tickets</h1>
         <ul>
@@ -183,7 +182,7 @@
           {{ end }}
         </ul>
         <p><a class="button"
-          href="https://ti.to/serverlessdays-auckland/2020">Buy your ticket</a></p>
+          href="{{.Site.Params.ticketSaleUrl}}">Buy your ticket</a></p>
       </div>
     </div>
   </div>  
@@ -235,7 +234,9 @@
   <a name="coc"></a>
   <div class="section coc" style="border-top: 0;">
     <h1>Code of Conduct</h1>
-    <img width="80" src="/images/tealdeer.jpg" title="tl;dr" alt="tl;dr">
+    <img width="80"
+      src="https://res.cloudinary.com/dtsyxzxfx/image/upload/w_100,f_auto,q_auto/v1577987547/2020/tealdeer.jpg"
+      title="tl;dr" alt="tl;dr">
     <div class="expanded">
       <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
       <p><strong>Jeff says be excellent with each other</strong></p>
