@@ -47,7 +47,7 @@ title = "ServerlessDays Auckland"
 
 [[params.tickets]]
     ticket = "Early Bird"   
-    text = "Act Fast, Limited Availability"
+    text = "Limited Availability until 15th Jan 2020"
     price = "NZ$39"
     done = false
 
@@ -65,7 +65,7 @@ title = "ServerlessDays Auckland"
 
 [[params.tickets]]
     ticket = "T-Shirt"
-    text = "Can't do without a shirt? To keep ticket prices as low as possible and accessible to the community the general admission tickets comes without bells and whistles. So add the shirt to your ticket and collect on registration"
+    text = "Grab a great Tee to remember the day. Purchase with ticket, and collect on registration"
     price = "NZ$20"
     done = false
 
