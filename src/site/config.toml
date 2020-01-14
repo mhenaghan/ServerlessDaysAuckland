@@ -52,8 +52,8 @@ title = "ServerlessDays Auckland"
     done = false
 
 [[params.tickets]]
-    ticket = "General Admission"
-    text = "No Frills entry to the conference"
+    ticket = "General Admission + Workshops"
+    text = "Entry to the conference, and workshops on following day"
     price = "NZ$49"
     done = false
 

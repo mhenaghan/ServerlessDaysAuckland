@@ -735,6 +735,11 @@ nav.top-nav .menu a.highlight:active {
   max-width: 80%;
   margin: auto;
   border: 0;
+  margin: auto;
+  /*flex-direction: column;*/
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .section.workshop > .text {
   flex: 1 1 60%;
