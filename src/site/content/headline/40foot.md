@@ -1,6 +1,7 @@
 ---
 type: "page"
 layout: "sponsor"
+weight: 1
 name: "40 Foot"
 link: "http://www.40foot.co.nz"
 logo: "https://res.cloudinary.com/dtsyxzxfx/image/upload/w_250,f_auto,q_auto/v1578008506/2020/40foot_logo_white_background.jpg"
