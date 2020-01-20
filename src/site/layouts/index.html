@@ -119,10 +119,10 @@
   <a name="speakers"></a>
   <div class="section speakers" style="border-top: 0;">
     <h1>Speakers</h1>
-    <div class="list">
-         {{ range where .Site.RegularPages "Section" "speakers" | shuffle }} 
+    <div class="list" style="order:{{.Params.order}}">
+         {{ range where .Site.RegularPages "Section" "speakers" }} 
         <div>
-          <div class="bio">
+          <div class="bio" data-effect="mfp-zoom-in">
               <a href="{{.URL}}">
                   <img src="{{.Params.image}}">
             <h3>{{.Params.speaker}}</h3>

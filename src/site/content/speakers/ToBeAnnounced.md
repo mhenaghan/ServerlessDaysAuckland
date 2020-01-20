@@ -1,7 +1,9 @@
 ---
 title: TBA
-
-weight: 2
+type: "page"
+layout: "speaker"
+chapter: false
+weight: 3
 description: 
 speaker: To Be Announced
 organization: 
