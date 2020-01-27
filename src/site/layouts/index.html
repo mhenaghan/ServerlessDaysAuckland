@@ -76,7 +76,7 @@
   <div class="section" style="border-top: 0;">
     <div class="left">
       <div class="title"><h1>Venue</h1></div>
-      <div class="image" style="padding: 0px 20px;"><iframe src="{{.Site.Params.venue.map}}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <div class="image" style="padding: 0px 20px;"><iframe src="{{.Site.Params.venue.map}}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen title="Venue"></iframe></div>
     </div>
     <div class="text">
       <p>The Conference will be hosted at the <a href="{{.Site.Params.venue.link}}">{{.Site.Params.venue.name}}</a></p>
@@ -124,7 +124,7 @@
         <div>
           <div class="bio" data-effect="mfp-zoom-in">
               <a href="{{.URL}}">
-                  <img src="{{.Params.image}}">
+                  <img src="{{.Params.image}}" alt="{{.Params.speaker}}">
             <h3>{{.Params.speaker}}</h3>
           </a>
           {{ with .Params.twitter }}
@@ -155,7 +155,7 @@
           <p><strong>When</strong> {{.Params.when}}</p>
           <p>Where: {{.Params.venue}}</p>          
           <p>Presented by</p>
-          <div class="w-100"> <img width="300px" class="grow" src="{{.Params.image}}"></div>
+          <div class="w-100"> <img width="300px" class="grow" src="{{.Params.image}}" alt="{{.Params.title}}"></div>
           <p><a href="{{.URL}}">Click here for more details and to reserve a seat</a></p>
         </div>
       </div>
@@ -168,7 +168,7 @@
     <div class="title"><h1>Tickets</h1></div>
     <div class="left">
       
-      <div class="image"><img width="150" height="150" style="padding: 30px;" src="https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1577987547/2020/owl_mascot.svg"></div>
+      <div class="image"><img width="150" height="150" style="padding: 30px;" src="https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1577987547/2020/owl_mascot.svg" alt="Serverless Days Mascot"></div>
     </div>
     <div class="text">
       <p>Tickets are available <a href="{{.Site.Params.ticketSaleUrl}}" target="_blank">here!</a></p>
