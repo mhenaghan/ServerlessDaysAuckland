@@ -32,14 +32,16 @@
   <a name="about"></a>
   <div class="section" style="border-top: 0;">
     <div class="left">
-      <div class="title"><h1>About</h1></div>
+      <!-- <div class="title"><h1>About</h1></div> -->
       <div class="image"><img width="150" height="150" style="padding: 30px;" src="{{.Site.Params.mascot}}" alt="Serverless Days Mascot"></div>
     </div>
     <div class="text">
-      <h2>Kia Ora ServerlessDays Auckland!</h2>
-      <p>{{.Site.Title}} is a developer-oriented conference about serverless technologies.</p>
-      <p>We believe in and encourage practical sessions, in which developers share their experience and lessons from real-world projects.</p>
-      <p>{{.Site.Title}} is part of ServerlessDays (formerly JeffConf), a global series of events around the world fostering communities around serverless technologies.</p>
+      <h2>Kia Ora {{.Site.Title}}!</h2>      
+      <p>ServerlessDays Auckland is a developer-oriented conference about serverless technologies. We believe in and encourage
+      practical sessions, in which developers share their experiences and lessons from real-world projects.</p>
+      <p>{{.Site.Title}} 2020 is part of a global series events <a target="_blank" href="https://serverlessdays.io/events">around the world</a> 
+        fostering communities around serverless technologies. 
+        After the inaugural event in <a target="_blank" href="https://2018.serverless.org.nz/">2018</a>, ServerlessDays Auckland is back this year for its second instalment.</p>
       <p>We follow and enforce the ServerlessDays <a href="#coc">Code of Conduct</a>.</p>
     </div>
   </div>
@@ -51,7 +53,7 @@
      <h1>Mailing list</h1>
    </div>
    <div class="text">
-     <div>
+     <div style="margin-left: 2px;">
        <!-- Begin Mailchimp Signup Form -->
        <form action="https://gmail.us4.list-manage.com/subscribe/post?u=e7df4df8303d6292732b6cab8&amp;id=d3538c4ab4"
          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -117,14 +119,10 @@
   <a name="speakers"></a>
   <div class="section speakers" style="border-top: 0;">
     <h1>Speakers</h1>
-    <div class="text">
-      <p>Interested in taking part as a speaker? our <a class="no-mobile"
-          href="https://www.papercall.io/serverlessdaysakl2020">Call for Papers</a> is now open!</p>
-    </div>
-    <!--<div class="list">
-         {{ range where .Site.RegularPages "Section" "speakers" | shuffle }} 
+    <div class="list" style="order:{{.Params.order}}">
+         {{ range where .Site.RegularPages "Section" "speakers" }} 
         <div>
-          <div class="bio">
+          <div class="bio" data-effect="mfp-zoom-in">
               <a href="{{.URL}}">
                   <img src="{{.Params.image}}">
             <h3>{{.Params.speaker}}</h3>
@@ -134,42 +132,58 @@
             {{ end }}
           </div>
         </div>
-        {{end}} -->
+        {{end}}
     </div>
+        <div class="text">
+          <p>Interested in taking part as a speaker? our <a class="mobile" href="https://www.papercall.io/serverlessdaysakl2020">Call
+              for Papers</a> is now open!</p>
+        </div>
   </div>
 
-  <!-- <a name="workshops"></a>
+   <a name="workshops"></a>
   <div class="section workshops" style="border-top: 0">
     <h1>Workshops</h1>
+    <div class="text">
+      <p>This year, your ServerlessDays ticket will include access to a selection of fantastic hands-on workshops held the following day. 
+    </div>
     <div class="list">
       {{ range where .Site.RegularPages "Section" "workshops" }} 
       <div>
         <div class="text" style="border: 1px solid #b0b0b0; border-radius: 5px; padding: 15px;">
           <h2>{{.Params.title}}</h2>
-          <p>What: {{.Params.short}}</p>
-          <p>When: {{.Params.when}}</p>
-          <p>Where: {{.Params.venue}}</p>
+          <p><strong>What:</strong> {{.Params.short}}</p>
+          <p><strong>When</strong> {{.Params.when}}</p>
+          <p>Where: {{.Params.venue}}</p>          
+          <p>Presented by</p>
+          <div class="w-100"> <img width="300px" class="grow" src="{{.Params.image}}"></div>
           <p><a href="{{.URL}}">Click here for more details and to reserve a seat</a></p>
         </div>
       </div>
       {{end}}
     </div>    
   </div>
--->
+
  <a name="tickets"></a>
   <div class="section" style="border-top: 0;">
+    <div class="title"><h1>Tickets</h1></div>
     <div class="left">
-      <div class="title"><h1>Tickets</h1></div>
+      
       <div class="image"><img width="150" height="150" style="padding: 30px;" src="https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1577987547/2020/owl_mascot.svg"></div>
     </div>
     <div class="text">
-      <p>Tickets are available <a href="{{.Site.Params.ticketSaleUrl}}" target="_blank">here!</a>
-        </p>
-      <p>We seek to create a diverse and inclusive community for serverless developers. We want to include and encourage people of all races, ethnicities, genders, religions, sexual orientations, abilities, technical experience and ages.</p>
-      <p>We aim to keep the ServerlessDays event accessible. A big part of that is making them financially accessible and offer affordable tickets.</p>
-      <p>In addition to affordable tickets, we run a ticket sponsorship program that allows you to sponsor a ticket for somebody else who otherwise might not be able to participate in the event.</p>
-      <p>To apply for a sponsored ticket, apply with an email to <a class="no-underline" href="mailto:{{.Site.Params.email}}" title="Email us at {{.Site.Params.email}} ">{{.Site.Params.email}}</a>.</p>
-      <p>The organizers decided to keep the ticket prices as low as possible therefore do not provide any catering, t-shirts or other swag. So the tickets are no frills admission to the conference. T-Shirts can be ordered additionally.</p>
+      <p>Tickets are available <a href="{{.Site.Params.ticketSaleUrl}}" target="_blank">here!</a></p>
+      <p><b>À la carte</b></p><p>In the interest of sustainability and paying only for what you use...we’ve kept the
+        (awesome)
+        T-Shirt as a separate purchase when buying tickets.<br>Please grab one, but only if it will be used!</p>
+        <p><b>Sponsor someone else?</b></p>
+          <p>We aim to keep the 2020 ServerlessDays event as financially accessible as possible with affordable tickets fo all.<p>
+          <p>We also run a ticket sponsorship program that allows you to sponsor a ticket for somebody else who otherwise
+          might not be able to participate in the event.</p>
+        <p>To apply for a sponsored ticket, email us at <a class="no-underline" href="mailto:{{.Site.Params.email}}"
+            title="Email us at {{.Site.Params.email}} ">{{.Site.Params.email}}</a>.
+</p>     
+      
+      
       <div class="heroDate">
         <h1>Tickets</h1>
         <ul>
@@ -223,14 +237,14 @@
             <img width="{{.Params.width}}px" class="grow" src="{{.Params.logo}}"
             title="{{.Params.name}}" alt="{{.Params.name}}"></a>
           </div>
-        </div>
+        </div> 
       {{ end }} 
     </div>
     <div class="text">
     <p>For more information on becoming a sponsor, please download our <a href="{{.Site.Params.prospectus}}">prospectus</a> or send an email to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a>.</p>
     </div>
   </div>
-
+<!--  -->
   <a name="coc"></a>
   <div class="section coc" style="border-top: 0;">
     <h1>Code of Conduct</h1>
@@ -238,6 +252,7 @@
       src="https://res.cloudinary.com/dtsyxzxfx/image/upload/w_100,f_auto,q_auto/v1577987547/2020/tealdeer.jpg"
       title="tl;dr" alt="tl;dr">
     <div class="expanded">
+      <p>We seek to create a diverse and inclusive community for serverless developers. We want to include and encourage people of all races, ethnicities, genders, religions, sexual orientations, abilities, technical experience and ages.</p>
       <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
       <p><strong>Jeff says be excellent with each other</strong></p>
       <h3>The Quick Version</h3>

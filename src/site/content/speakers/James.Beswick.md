@@ -1,11 +1,13 @@
 ---
-title: How Amazon EventBridge transforms serverless development
-description: "Event-driven architecture can help decouple services and simplify dependencies as your application grows. Amazon EventBridge provides new options for developers looking to gain the benefits of this approach.<br />
-In this session, I’ll explore the typical problems in synchronous architectures and how events provide a new way to communicate between microservices. You’ll see how this allows service teams to become more independent and how it helps developers get their features to users more quickly.<br />
-This sessions shows the difference between existing AWS messaging services, how Software-as-a-Service applications can now emit events, and why this is better than polling or web-hook mechanisms. Finally, I will use live coding examples you can immediately use in your serverless applications."
+type: "page"
+chapter: false
+layout: "speaker"
+title: Keynote Address
+description: 
 speaker: James Beswick
-organization: AWS
-bio: "Developer Advocate at AWS Serverless. Previously a Product Manager, Developer, Entrepreneur, Author and AWS-Certified Builder."
-image: /images/James.Beswick.jpg
+weight: 1
+organization: Senior Developer Advocate / AWS
+bio: "James Beswick is a Senior Developer Advocate for the AWS Serverless team. James works with AWS's developer customers to understand how serverless technologies can drastically change the way they think about building and running applications at massive scale with minimal administration overhead. He has previously worked as a Software Developer and Product Manager at various enterprises and startups, and has nearly a decade of experience building applications in the cloud.<p>Check out a <a href='https://www.linkedin.com/pulse/all-my-2019-serverless-content-one-place-james-beswick/'>2019 summary</a> of all of James' serverles content"
+image: /images/James.Beswick.2020.jpg
 twitter: jbesw
 ---
