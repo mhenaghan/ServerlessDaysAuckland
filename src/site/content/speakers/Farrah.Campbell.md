@@ -4,7 +4,7 @@ layout: "speaker"
 chapter: false
 title: TBA
 description: 
-speaker: Farrah Cambell
+speaker: Farrah Campbell
 # type: page
 weight: 2
 organization: Ecosystems Director at Stackery
