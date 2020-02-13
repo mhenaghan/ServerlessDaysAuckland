@@ -1,4 +1,4 @@
----
+xxx---
 type: "page"
 layout: "sponsor"
 name: "Fronde"
