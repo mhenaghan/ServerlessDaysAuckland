@@ -2,7 +2,7 @@
 type: "page"
 chapter: false
 layout: "speaker"
-title: Keynote Address
+title: Opening Keynote - The 5 Reasons why Enterprises Love Serverless
 description: 
 speaker: James Beswick
 weight: 1

@@ -2,7 +2,7 @@
 type: "page"
 layout: "speaker"
 chapter: false
-title: TBA
+title: Empowering Careers with Serverless
 description: 
 speaker: Farrah Campbell
 # type: page

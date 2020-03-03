@@ -33,7 +33,7 @@ title = "ServerlessDays Auckland"
 [[params.dates]]
     date = "02 March 2020"
     text = "CFP closes"
-    done = false
+    done = true
 
 [[params.dates]]
     date = "15 March 2020"
@@ -88,60 +88,64 @@ title = "ServerlessDays Auckland"
 [[params.agenda]]
     time = "9:15 - 9:45"
     type = "talk"
-    talk = "Richard.Boyd"
+    talk = "James.Beswick"
 [[params.agenda]]
-    time = "9:50 - 10:20"
+    time = "9:45 - 10:15"
     type = "talk"
-    talk = "Simon.Aronsson"
+    talk = "Farrah.Campbell"
 [[params.agenda]]
-    time = "10:20 - 10:50"
+    time = "10:15 - 11:00"
     type = "coffee"
-    title = "Coffee Break"
+    title = "Morning break"
 [[params.agenda]]
-    time = "10:50 - 11:20"
+    time = "11:00 - 11:35"
     type = "talk"
-    talk = "Angela.Timofte"
+    talk = "ToBeAnnounced"
 [[params.agenda]]
-    time = "11:25 - 11:55"
+    time = "11:35 - 12:15"
     type = "talk"
-    talk = "Ory.Segal"
+    talk = "ToBeAnnounced"
 [[params.agenda]]
-    time = "12:00 - 13:10"
+    time = "12:15 - 13:45"
     type = "lunch"
-    talk = ""
+    title = "Lunch"
 [[params.agenda]]
-    time = "13:10 - 13:40"
+    time = "13:50 - 14:20"
     type = "talk"
-    talk = "Bruno.Amaro.Almeida"
+    title = "Panel discussion"
 [[params.agenda]]
-    time = "13:45 - 14:15"
+    time = "14:20 - 14:50"
     type = "talk"
-    talk = "Bret.McGowen"
+    talk = "Randall.Hunt"
 [[params.agenda]]
-    time = "14:20 - 14:55"
+    time = "14:50 - 15:20"
     type = "talk"
-    talk = "Heitor.Lessa"
+    talk = "ToBeAnnounced"
 [[params.agenda]]
-    time = "14:55 - 15:20"
+    time = "15:20 - 15:35"
+    type = "talk"
+    talk = "Damon.Williams"
+[[params.agenda]]
+    time = "15:35 - 15:45"
+    type = "talk"
+    talk = "ToBeAnnounced"
+[[params.agenda]]
+    time = "15:45 - 16:30"
     type = "coffee"
     title = "Coffee Break"
-[[params.agenda]]
-    time = "15:20 - 15:50"
-    type = "talk"
-    talk = "Katarina.Svedman"
-[[params.agenda]]
-    time = "15:55 - 16:25"
-    type = "talk"
-    talk = "Efi.Merdler.Kravitz"
 [[params.agenda]]
     time = "16:30 - 17:00"
     type = "talk"
-    talk = "James.Beswick"
+    talk = "ToBeAnnounced"
 [[params.agenda]]
-    time = "17:00 - 17:15"
+    time = "17:00 - 17:30"
+    type = "talk"
+    talk = "ToBeAnnounced"
+[[params.agenda]]
+    time = "17:30 - 17:35"
     type = "coffee"
     title = "Closing Remarks"
 [[params.agenda]]
-    time = "17:30 - 19:30"
-    type = "coffee"
-    title = "Networking, Dringks and nibbles"
+    time = "17:35 - 18:30"
+    type = "lunch"
+    title = "Networking, Drinks and Nibbles"
