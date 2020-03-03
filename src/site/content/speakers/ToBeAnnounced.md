@@ -3,7 +3,7 @@ title: TBA
 type: "page"
 layout: "speaker"
 chapter: false
-weight: 3
+weight: 4
 description: 
 speaker: To Be Announced
 organization: 
