@@ -488,9 +488,17 @@ nav.top-nav .menu a.highlight:active {
   border: 2px solid lightgray;
 }
 
+.section.speakers .list > div > .social img {
+  height: 25px;
+  padding: 2px;
+  border-radius: 0%;
+  border: 0px ;
+}
+
 .section.speakers .list > div > .bio h3 {
-  font-weight: 600;
+  font-weight: 500;  
   font-size: 1.1em;
+  
   margin: 0.5em 0 0 0;
 }
 

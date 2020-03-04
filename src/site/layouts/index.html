@@ -85,7 +85,7 @@
   </div>
 
 
-  <!-- <a name="agenda"></a>
+   <!-- <a name="agenda"></a>
   <div class="section agenda" style="border-top: 0">
     <div class="header-button"><h1>Agenda</h1></div>
 
@@ -114,7 +114,7 @@
         {{end}}
         {{end}}  
     </div>
-  </div> -->
+  </div>  -->
 
   <a name="speakers"></a>
   <div class="section speakers" style="border-top: 0;">
@@ -125,18 +125,27 @@
           <div class="bio" data-effect="mfp-zoom-in">
               <a href="{{.URL}}">
                   <img src="{{.Params.image}}" alt="{{.Params.speaker}}" class="grow">
-            <h3>{{.Params.speaker}}</h3>
+            <h3>{{.Params.speaker}} - {{.Params.organization}}</h3>
           </a>
-          {{ with .Params.twitter }}
-            <a href="https://twitter.com/{{.}}" target="_blank" rel="noopener">@{{.}}</a>
-            {{ end }}
           </div>
+          <div class="social">
+          {{ with .Params.twitter }}
+           <a href="https://twitter.com/{{.}}" 
+           target="_blank" rel="noopener">
+              <img style="" src="/images/twitter.png" alt={{.}}></a>
+            {{ end }}
+            {{ with .Params.linkedin }}
+            <a href="https://linkedin.com/in/{{.}}" target="_blank" rel="noopener"><img width="" height=""
+                style="" src="/images/linkedin2.png" alt={{.}}></a>
+            {{ end }}
+            </div>
+          
         </div>
         {{end}}
     </div>
         <div class="text">
-          <p>Interested in taking part as a speaker? our <a class="mobile" href="https://www.papercall.io/serverlessdaysakl2020">Call
-              for Papers</a> is now open!</p>
+          <p>Our <a class="mobile" href="https://www.papercall.io/serverlessdaysakl2020">Call for Papers</a> is now
+            closed.<br>We received a fantastic response from both local and overseas speakers and would like to thank all those who submitted a talk.</p>
         </div>
   </div>
 
