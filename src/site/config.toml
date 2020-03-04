@@ -80,13 +80,13 @@ title = "ServerlessDays Auckland"
 [[params.agenda]]
     time = "8:00 - 9:00"
     type = "coffee"
-    title = "Registration & Breakfast"
+    title = "Registration"
 [[params.agenda]]
-    time = "9:00 - 9:15"
-    type = "coffee"
+    time = "9:00 - 9:10"
+    type = "talk"
     title = "Opening Remarks"
 [[params.agenda]]
-    time = "9:15 - 9:45"
+    time = "9:10 - 9:45"
     type = "talk"
     talk = "James.Beswick"
 [[params.agenda]]
@@ -116,7 +116,7 @@ title = "ServerlessDays Auckland"
 [[params.agenda]]
     time = "14:20 - 14:50"
     type = "talk"
-    talk = "Randall.Hunt"
+    talk = "ToBeAnnounced"
 [[params.agenda]]
     time = "14:50 - 15:20"
     type = "talk"
@@ -140,12 +140,8 @@ title = "ServerlessDays Auckland"
 [[params.agenda]]
     time = "17:00 - 17:30"
     type = "talk"
-    talk = "ToBeAnnounced"
+    talk = "Randall.Hunt"
 [[params.agenda]]
-    time = "17:30 - 17:35"
-    type = "coffee"
-    title = "Closing Remarks"
-[[params.agenda]]
-    time = "17:35 - 18:30"
+    time = "17:30 - 18:30"
     type = "lunch"
-    title = "Networking, Drinks and Nibbles"
+    title = "Closing Remarks and drinks reception"

@@ -2,7 +2,7 @@
 type: "page"
 chapter: false
 layout: "speaker"
-title: Live coding demo with Amazon Connect
+title: Closing Keynote - Live coding demo with Amazon Connect
 description: 
 speaker: Randall Hunt
 weight: 3
