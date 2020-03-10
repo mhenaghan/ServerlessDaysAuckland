@@ -1,5 +1,5 @@
 ---
-title: "CORVID-19"
+title: "COVID-19"
 layout: "post"
 date: 2020-03-09T20:33:16+13:00
 draft: true
