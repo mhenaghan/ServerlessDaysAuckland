@@ -7,19 +7,20 @@
 
 {{ define "main" }}
 <div class="breadcrumb">&nbsp;</div>
+<div class="section speakers" style="border-top: 0;">
+  <h1>{{.Title}}</h1>
 
+{{ range where .Site.RegularPages "Section" "posts" }} 
 <div class="section talk">
-  <!-- <div class="photo">
-      <img src="{{.Params.image}}">      
-  </div> -->
+ 
   <div class="text">
-    <h1>{{.Title}}</h1>
-    
-
     <h2>{{dateFormat "Monday, Jan 2, 2006" .Date}}</h2>    
     <p>{{.Params.Content | safeHTML }}</p>
-
-    <a class="button" href="/">Home</a>
   </div>
 </div>
+{{ end }}
+<a class="button" href="/">Home</a>
+</div>
+
+  
 {{ end }}

@@ -35,15 +35,7 @@ title = "ServerlessDays Auckland"
     text = "CFP closes"
     done = true
 
-[[params.dates]]
-    date = "15 March 2020"
-    text = "Final speaker announcement"
-    done = false    
 
-[[params.dates]]
-    date = "20 April 2020"
-    text = "ServerlessDays Auckland"
-    done = false
 
 [[params.tickets]]
     ticket = "Early Bird"   
