@@ -12,7 +12,7 @@ Needless to say, if we reach that point, we will inform everyone as quickly as p
 <p>We appreciate that this approach might not remove uncertainty for some attendees - in particular non-locals who bought a ticket - and apologise for that. Please contact us if you are one of those and already decided to not attend the event. We will happily refund your ticket. For all others: Many thanks for your ongoing support!</p>
 
 <p>Best wishes from the ServerlessDays Auckland team,<br>
-One Day, One Track, One Community.ttt"
+One Day, One Track, One Community."
 image: 
 ---
 
