@@ -12,7 +12,7 @@ bio:
 image: /images/google-cloud-logo-white.png
 twitter: 
 price: After you buy your ticket for ServerlessDays Auckland you can register for a workshop without any additional cost. Information will be sent to you in a confirmation email.
-when: "21 April 2020"
+when: "Postponed"
 duration: Approx 3hrs, timings to be confirmed.
 venue: "Google, GridAKL, 12 Madden Street, Auckland CBD"
 map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12772.030405814381!2d174.756654!3d-36.842294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdaad42988e8b5216!2sGridAKL%20%2F%2012%20Madden%20Street!5e0!3m2!1sen!2snz!4v1579037402607!5m2!1sen!2snz
