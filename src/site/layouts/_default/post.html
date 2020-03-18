@@ -7,19 +7,27 @@
 
 {{ define "main" }}
 <div class="breadcrumb">&nbsp;</div>
+<div class="section speakers" style="border-top: 0;">
+  <h1>{{.Title}}</h1>
+  <!--div class="section talk"-->
+    <div class="text">
+      <p>For regular updates, please <a href='/#mailinglist'> subscribe to our newsletter</a> or view advice from <a
+          href='https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus'>Ministry of
+          Health</a>.
+      </p>
+    </div>
 
-<div class="section talk">
-  <!-- <div class="photo">
-      <img src="{{.Params.image}}">      
-  </div> -->
-  <div class="text">
-    <h1>{{.Title}}</h1>
-    
-
-    <h2>{{dateFormat "Monday, Jan 2, 2006" .Date}}</h2>    
-    <p>{{.Params.Content | safeHTML }}</p>
-
-    <a class="button" href="/">Home</a>
+  <!--/div-->
+  {{ range where .Site.RegularPages "Section" "posts" }}
+  <div class="section talk">
+    <div class="text">
+      <h2>{{dateFormat "Monday, Jan 2, 2006" .Date}}</h2>
+      <p>{{.Params.Content | safeHTML }}</p>
+    </div>
   </div>
+  {{ end }}
+  <a class="button" href="/">Home</a>
 </div>
+
+
 {{ end }}
