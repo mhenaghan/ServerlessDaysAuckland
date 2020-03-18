@@ -11,7 +11,8 @@ We are in awe of people who told us how they would overcome these challenges - o
 <p>Our decision-making process was also influenced by the organiser's strong desire to provide a first-class event experience that places humans and our interactions with each other at the core and centre of everything: Nothing beats that friendly smile of a fellow attendee, the engaging discussion in person and the shared laughter with new friends. 
 Our main concern however was - and will always remain - the safety of all conference attendees. And that is why we are currently working towards a new date in August or later this year - hoping that the COVID-19 issue will be firmly in everyone’s rearview mirror by then.
 At this stage, we like to thank all of our wonderful sponsors who are committed to the ongoing support of ServerlessDays Auckland. We're incredibly grateful for that and literally couldn't do it without you!</p>
-<p>Stay safe, thank you for your understanding and watch this space for further updates!
+<p>See our <a href="/faq/">FAQ</a> for questions about the postponement</p> 
+<p>Stay safe, thank you for your understanding and watch this space for further updates. 
 </p>
 
 <p>All the best, <br>
