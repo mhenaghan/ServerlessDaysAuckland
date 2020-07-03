@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "https://anz.serverlessdays.io/"
+  status = 301
+  force = true
