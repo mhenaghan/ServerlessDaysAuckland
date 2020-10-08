@@ -11,14 +11,14 @@
     <div class="heroDate">
       <h1>Dates</h1>
       <ul>
-        {{ range .Site.Params.dates }} 
+        <!-- {{ range .Site.Params.dates }} 
         {{ if eq .done true }}
         <li class="done"><div class="checkmark">✔️</div><div class="text">{{.date}}<br><strong>{{.text}}</strong></div></li>
         {{ else }}
         <li><div class="checkmark">️</div><div class="text">{{.date}}<br><strong>{{.text}}</strong></div></li>
         {{ end }}
-        {{ end }}
-        <li><div class="checkmark">️</div><div class="text">17 March 2020<br><strong>EVENT IS POSTPONED</strong> <br><strong><a class="" href="/posts/covid-19">Please see our COVID-19 Update</a></strong></div></li>
+        {{ end }} -->
+        <li><div class="checkmark">️</div><div class="text">01 October 2020<br><strong>EVENT IS CANCELLED</strong> <br><strong><a class="" href="/posts/cancellation">Please see our cancellation update</a></strong></div></li>
         
       </ul>
     </div>
@@ -41,17 +41,23 @@
       <h2>Kia Ora {{.Site.Title}}!</h2>      
       <p>ServerlessDays Auckland is a developer-oriented conference about serverless technologies. We believe in and encourage
       practical sessions, in which developers share their experiences and lessons from real-world projects.</p>
-      <p>{{.Site.Title}} 2020 is part of a global series events <a target="_blank" href="https://serverlessdays.io/events" rel="noopener">around the world</a> 
+      <p>{{.Site.Title}} is part of a global series events <a target="_blank" href="https://serverlessdays.io/events" rel="noopener">around the world</a> 
         fostering communities around serverless technologies. 
         After the inaugural event in <a target="_blank" href="https://2018.serverless.org.nz/" rel="noopener">2018</a>, ServerlessDays Auckland is back this year for its second instalment.</p>
       <p>We follow and enforce the ServerlessDays <a href="#coc">Code of Conduct</a>.</p>
-      <p><strong>Notices:</strong></p>
-      <p>
-        <h3><a class="" href="/posts/covid-19">COVID-19 Update</a></h3>
+       
       </p>
+      <!-- <p><strong>Sadly, </strong></p> -->
       <p>
-        <h3><a class="" href="/faq">FAQ</a></h3>
+        
       </p>
+      <h3>😞 2020: Challenge leads to opportunity 🙌</h3>
+      <p>Unfortunately, ServerlessDays Auckland 2020 has been <a class="" href="/posts/oct-cancellation"> cancelled.</a> Although very disappointing that the event fell victim to COVID-19,  it also brought the community together across Australia and New Zealand to jumpstart a very successful <a href='https://www.youtube.com/c/ServerlessDaysANZ/'>ANZ combined event</a> online. 
+      
+      
+      <!-- <p>
+        <h3><a class="" href="/faq/faq_1/">FAQ</a></h3>
+      </p> -->
     </div>
     
   </div>
@@ -82,7 +88,7 @@
    </div>
  </div>
 
-  <a name="venue"></a>
+  <!-- <a name="venue"></a>
   <div class="section" style="border-top: 0;">
     <div class="left">
       <div class="title"><h1>Venue</h1></div>
@@ -92,7 +98,7 @@
       <p>The Conference will be hosted at the <a href="{{.Site.Params.venue.link}}">{{.Site.Params.venue.name}}</a></p>
       <p>{{.Site.Params.venue.text}}</p>
     </div>
-  </div>
+  </div> -->
 
 
    <!-- <a name="agenda"></a>
@@ -126,7 +132,7 @@
     </div>
   </div>  -->
 
-  <a name="speakers"></a>
+  <!-- <a name="speakers"></a>
   <div class="section speakers" style="border-top: 0;">
     <h1>Speakers</h1>
     <div class="list" style="order:{{.Params.order}}">
@@ -137,7 +143,7 @@
                   <img src="{{.Params.image}}" alt="{{.Params.speaker}}" class="grow">
             <h3>{{.Params.speaker}} - {{.Params.organization}}</h3>
           </a>
-          </div>
+          </div> -->
           <!-- <div class="social">
           {{ with .Params.twitter }}
            <a href="https://twitter.com/{{.}}" 
@@ -150,15 +156,15 @@
             {{ end }}
             </div> -->
           
-        </div>
+        <!-- </div>
         {{end}}
     </div>
         <div class="text">
           <p>Our <a class="mobile" href="https://www.papercall.io/serverlessdaysakl2020">Call for Papers</a> is now
             closed.<br>We received a fantastic response from both local and overseas speakers and would like to thank all those who submitted a talk.</p>
         </div>
-  </div>
-
+  </div> -->
+<!-- 
    <a name="workshops"></a>
   <div class="section workshops" style="border-top: 0">
     <h1>Workshops</h1>
@@ -180,10 +186,10 @@
       </div>
       {{end}}
     </div>    
-  </div>
+  </div> -->
 
- <a name="tickets"></a>
-  <div class="section" style="border-top: 0;">
+ <!-- <a name="tickets"></a> -->
+  <!-- <div class="section" style="border-top: 0;">
     <div class="title"><h1>Tickets</h1></div>
     <div class="left">
       
@@ -218,9 +224,9 @@
           href="{{.Site.Params.ticketSaleUrl}}">Buy your ticket</a></p>
       </div>
     </div>
-  </div>  
+  </div>   -->
 
-  <a name="sponsors"></a>
+  <!-- <a name="sponsors"></a>
   <div class="section sponsors" style="border-top: 0;">
     <h1>Sponsors</h1>
     <h2>Headline</h2>
@@ -262,7 +268,7 @@
     <div class="text">
     <p>For more information on becoming a sponsor, please download our <a href="{{.Site.Params.prospectus}}">prospectus</a> or send an email to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a>.</p>
     </div>
-  </div>
+  </div> -->
 <!--  -->
   <a name="coc"></a>
   <div class="section coc" style="border-top: 0;">

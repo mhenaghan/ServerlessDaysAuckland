@@ -12,6 +12,6 @@ Needless to say, if we reach that point, we will inform everyone as quickly as p
 
 <p>Best wishes from the ServerlessDays Auckland team,<br>
 One Day, One Track, One Community."
-image: 
+image: /images/owl_mascot.png
 ---
 

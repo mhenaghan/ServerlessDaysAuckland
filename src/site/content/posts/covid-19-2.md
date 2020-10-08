@@ -17,5 +17,5 @@ At this stage, we like to thank all of our wonderful sponsors who are committed 
 
 <p>All the best, <br>
 Andreas, Myles, Darshit, Rainer, Sukhans and Ali "
-image: 
+image: /images/owl_mascot.png
 ---
