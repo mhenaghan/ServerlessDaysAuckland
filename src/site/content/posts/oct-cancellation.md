@@ -8,7 +8,6 @@ Planning would need to start in anger shortly with a point of no return (from a 
 We are starting to refund sold tickets, cancel the venue, etc. and will wind down the event. We discussed the option to go for a hybrid or complete virtual event but decided against it to have more flexibility with regards to standing up something again under a combined <a href='https://anz.serverlessdays.io/'>ANZ banner</a> next year.
 Obviously, no one knows what the future will look like but based on the success of our first joint <a href='https://www.youtube.com/c/ServerlessDaysANZ/'>online event</a> on the 4th of September, we'd love to continue that previous collaboration and explore in due course what that could look like.</p>
 
-<p>Best wishes from the ServerlessDays Auckland team,<br>
-One Day, One Track, One Community."
+<p>Best wishes from the ServerlessDays Auckland team."
 image: https://res.cloudinary.com/dtsyxzxfx/image/upload/f_auto,q_auto/v1577987547/2020/anteater_mascot.png
 ---
